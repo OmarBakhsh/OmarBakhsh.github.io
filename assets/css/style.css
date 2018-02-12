@@ -492,7 +492,8 @@ textarea::-ms-input-placeholder
     color:#ecf0f2;
 }
 
-/*For About Us Section */
+/*For Booking Section */
+
 
 .about-content{
     margin-top:70px;
@@ -505,75 +506,6 @@ textarea::-ms-input-placeholder
     margin-top:40px;
 }
 
-/*For Features Section*/
-.features-bg{
-    background:#10c6fc;
-    color:#fff;
-    height: 270px;
-    width: 283px;
-	margin-bottom:20px;
-}
-.features-item{
-    padding-top: 84px;
-}
-.features-item i{
-    font-size:40px;
-}
-.features-item h6{
-    padding-top:35px;
-}
-.features-item h6 a{
-    font-size: 18px;
-    text-transform: uppercase;
-    color:#fff;
-}
-.features-item h6 a:hover{
-    color:#ff2b4a;
-}
-.features-bg.design{
-    background:#10c6fc;
-    transition:.3s ease-in-out;
-    -webkit-transition:.3s ease-in-out;
-    -moz-transition:.3s ease-in-out;
-    -ms-transition:.3s ease-in-out;
-    -o-transition:.3s ease-in-out;
-}
-.features-bg.design:hover{
-    background:#2d6879;
-}
-.features-bg.development{
-    background:#835aeb;
-    transition:.3s ease-in-out;
-    -webkit-transition:.3s ease-in-out;
-    -moz-transition:.3s ease-in-out;
-    -ms-transition:.3s ease-in-out;
-    -o-transition:.3s ease-in-out;
-}
-.features-bg.development:hover{
-    background:#6b647c;
-}
-.features-bg.testing{
-    background:#002453;
-    transition:.3s ease-in-out;
-    -webkit-transition:.3s ease-in-out;
-    -moz-transition:.3s ease-in-out;
-    -ms-transition:.3s ease-in-out;
-    -o-transition:.3s ease-in-out;
-}
-.features-bg.testing:hover{
-    background:#64cbc0;
-}
-.features-bg.launch{
-    background:#ff2b4a;
-    transition:.3s ease-in-out;
-    -webkit-transition:.3s ease-in-out;
-    -moz-transition:.3s ease-in-out;
-    -ms-transition:.3s ease-in-out;
-    -o-transition:.3s ease-in-out;
-}
-.features-bg.launch:hover{
-    background:#222222;
-}
 
 /*For Experience Section*/
 
@@ -620,49 +552,8 @@ textarea::-ms-input-placeholder
 }
 
 
-/* For Portfolio Section*/
-.portfolio-item {
-	margin-bottom:20px;
-}
 
-.portfolio-wrapper2{
-    margin-top:25px;
-}
-.portfolio-wrapper2 .portfolio-item.width-img{
-    width:100%;
-    overflow:hidden;
-    height:243px;
-}
-.portfolio-wrapper2 .portfolio-item.width-img img{
-    width:100%;
-}
-
-/* For Testimonial Section*/
-.testimonial-content{
-    margin-top:150px;
-}
-.testimonial-content .testimonial-quote i{
-    font-size:60px;
-    margin-bottom:40px;
-    color:#6d809e;
-}
-.testimonial-content .testimonial-quote p{
-    font-size:16px;
-}
-.testimonial-content .singnature{
-    width:100%;
-    display:block;
-    overflow:hidden;
-    margin:50px 0 30px 0;
-}
-.testimonial-content .regards-by h5{
-    margin-bottom:5px;
-}
-.profile-photo{
-    height:650px;
-}
-
-/*For Contact Section*/
+/*For about me Section*/
 
 .contact{
     background: url(../images/contact2.jpg) no-repeat center top fixed;
@@ -835,71 +726,32 @@ Main components
     }
 }
 
-.cd-menu-trigger {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    padding: 0 .8em;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    font-size: 0.875rem;
-    border: 2px solid #EDEDED;
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
 }
-.cd-menu-trigger span {
-    /* hamburger icon */
-    position: relative;
-    display: inline-block;
-    width: 18px;
-    height: 2px;
-    background-color: white;
-    vertical-align: middle;
-    -webkit-transform: translateY(-2px);
-    -moz-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
-    -o-transform: translateY(-2px);
-    transform: translateY(-2px);
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 55px;
+    text-decoration: none;
+    font-size: 17.80px;
 }
-.cd-menu-trigger span::before, .cd-menu-trigger span::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: inherit;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
-.cd-menu-trigger span::before {
-    top: -6px;
-}
-.cd-menu-trigger span::after {
-    bottom: -6px;
-}
-.no-touch .cd-menu-trigger:hover span::before {
-    top: -8px;
-}
-.no-touch .cd-menu-trigger:hover span::after {
-    bottom: -8px;
-}
-@media only screen and (min-width: 768px) {
-    .cd-menu-trigger {
-        top: 16px;
-        right: 10px;
-        font-size: 16px;
-        font-size: 1rem;
-    }
-}
-@media only screen and (min-width: 1170px) {
-    .cd-menu-trigger {
-        right: 60px;
-    }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 #main-nav {
@@ -1060,3 +912,7 @@ Main components
     -moz-transition-delay: 0s;
     transition-delay: 0s;
 }
+
+
+/* adding a scroll to top button */
+
