@@ -453,14 +453,14 @@ textarea::-ms-input-placeholder
 
 /*For Booking Section */
 
-.Book-content{
+.book-content{
     margin-top:30px;
 }
-.Book-content h4{
+.book-content h4{
     font-size:20px;
     font-family: 'robotobold';
 }
-.Book-content a{
+.book-content a{
     margin-top:50px;
 }
 
