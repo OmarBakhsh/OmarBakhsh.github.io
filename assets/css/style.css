@@ -127,13 +127,7 @@ input[type="color"],
 }
 
 h1,
-h2,
-h3 {
-    /*font-family: 'Lane', sans-serif;*/
-    font-weight: 300;
-    margin: 0;
-    color:#525252;
-}
+
 h4,
 h5 {
     /*font-family: 'roboto', sans-serif;*/
@@ -147,17 +141,7 @@ h1 {
     line-height: 4rem;
     font-weight: 300;
 }
-h2 {
-    font-size: 2.5rem;
-    line-height: 3rem;
-    margin-bottom: .9rem;
-}
-h3 {
-    font-weight: 300;
-    margin-bottom: .9rem;
-    font-size: 2.1rem;
-    line-height: 2.5rem;
-}
+
 h4 {
     font-size: 1.6rem;
     line-height: 2.2rem;
@@ -179,8 +163,7 @@ p:last-child {
     margin-bottom:0px;
 }
 /*.home-wrap h1,*/
-.home-wrap h2,
-.home-wrap h3,
+
 .home-wrap h4,
 .home-wrap h5,
 .home-wrap p {
@@ -309,26 +292,7 @@ Separator
     background: #f56363;
 }
 
-/*
-Button
-*/
-.btn-primary.active.focus,
-.btn-primary.active:focus,
-.btn-primary.active:hover,
-.btn-primary:active.focus,
-.btn-primary:active:focus,
-.btn-primary:active:hover,
-.open > .dropdown-toggle.btn-primary.focus,
-.open > .dropdown-toggle.btn-primary:focus,
-.open > .dropdown-toggle.btn-primary:hover,
-.btn-primary.focus,
-.btn-primary:focus,
-.btn-primary.disabled,
-.btn-primary.disabled:hover {
-    color: #ffffff;
-    background-color: #f56363;
-    border-color: #f56363;
-}
+
 
 /*
 Extra height css
@@ -438,12 +402,7 @@ textarea::-ms-input-placeholder
 .heading-content{
     margin-bottom: 4rem;
 }
-.heading-content h3{
-    font-size:40px;
-    font-family: "Raleway Webfont";
-    font-weight:700;
-    letter-spacing:3px;
-}
+
 .btn-default {
     color: #fff;
     background-color: #ff2b4a;
@@ -458,7 +417,7 @@ textarea::-ms-input-placeholder
     color:#fff;
 }
 
-/*For Menu Section*/
+
 
 
 /*For Home Section*/
@@ -494,16 +453,15 @@ textarea::-ms-input-placeholder
 
 /*For Booking Section */
 
-
-.about-content{
-    margin-top:70px;
+.book-content{
+    margin-top:30px;
 }
-.about-content h4{
-    font-size:18px;
+.book-content h4{
+    font-size:20px;
     font-family: 'robotobold';
 }
-.about-content a{
-    margin-top:40px;
+.book-content a{
+    margin-top:50px;
 }
 
 
@@ -734,10 +692,12 @@ Main components
 
 /* Style the links inside the navigation bar */
 .topnav a {
+	box-sizing: border-box;
     float: center;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 55px;
+    padding:0px;
+	margin: 0 auto
     text-decoration: none;
     font-size: 17.80px;
 }
@@ -915,4 +875,8 @@ Main components
 
 
 /* adding a scroll to top button */
+
+
+/* Responsive Website */
+
 
